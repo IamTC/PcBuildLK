@@ -1,0 +1,28 @@
+@import "../../../variables";
+svg {
+  #mobo:hover {
+    stroke: $componentStroke;
+    cursor: pointer;
+  }
+  .selectable.cpu:hover {
+    fill: $componentStroke;
+    cursor: pointer;
+  }
+  #gpu.selectable:hover {
+    stroke: $componentStroke;
+    fill: $componentStroke;
+    cursor: pointer;
+  }
+  #ram:hover {
+    cursor: pointer;
+    .selectable.ram {
+      stroke: $componentStroke;
+    }
+  }
+  #storage:hover {
+    cursor: pointer;
+    .selectable {
+      fill: $componentStroke;
+    }
+  }
+}
